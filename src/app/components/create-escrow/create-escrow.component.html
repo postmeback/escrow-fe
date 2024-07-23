@@ -1,0 +1,20 @@
+<div>
+    <h2>Create Escrow</h2>
+    <label>
+      Seller Address:
+      <input [(ngModel)]="seller" placeholder="Seller Address">
+    </label>
+    <br>
+    <label>
+      Buyer Address:
+      <input [(ngModel)]="buyer" placeholder="Buyer Address">
+    </label>
+    <br>
+    <label>
+      Amount:
+      <input [(ngModel)]="amount" placeholder="Amount" type="number">
+    </label>
+    <br>
+    <button (click)="createEscrow()">Create Escrow</button>
+  </div>
+  
